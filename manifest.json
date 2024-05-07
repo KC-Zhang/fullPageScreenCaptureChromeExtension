@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Full Page Capture and Display",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs",
+        "system.display"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "capture_page": {
+            "suggested_key": {
+                "default": "Alt+Shift+P",
+                "mac": "Command+Shift+P"
+            },
+            "description": "Capture the full page and display side by side"
+        }
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}
