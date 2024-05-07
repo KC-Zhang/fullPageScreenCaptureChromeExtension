@@ -17,8 +17,8 @@
     "commands": {
         "capture_page": {
             "suggested_key": {
-                "default": "Alt+Shift+P",
-                "mac": "Command+Shift+P"
+                "default": "Alt+Shift+S",
+                "mac": "Command+Shift+S"
             },
             "description": "Capture the full page and display side by side"
         }
@@ -27,5 +27,14 @@
         "16": "images/icon16.png",
         "48": "images/icon48.png",
         "128": "images/icon128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        },
+        "default_popup": "",
+        "default_title": "Click to capture the page"
     }
 }

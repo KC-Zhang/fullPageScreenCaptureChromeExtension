@@ -1,6 +1,8 @@
 async function captureFullPage() {
-    let totalHeight = document.documentElement.scrollHeight;
-    let viewportHeight = window.innerHeight;
+    
+    let element = document.documentElement; 
+    let totalHeight = element.scrollHeight;
+    let viewportHeight = element.clientHeight;
     let captures = [];
     console.log("Starting full page capture", totalHeight, viewportHeight);
 
